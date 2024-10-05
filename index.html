@@ -5,6 +5,21 @@
           <title></title>
      </head>
      <body>
-          <h1>Hello World</h1>
+          <div><h1>Hello World</h1></div>
      </body>
+<script src="node_modules/animejs/lib/anime.min.js"></script>
+<script>
+     anime({
+          targets: 'html',
+          backgroundColor: '#000',
+          duration: 800
+     });
+     anime({
+          targets: 'div',
+          translateX: 250,
+          rotate: '1turn',
+          backgroundColor: '#FFF',
+          duration: 800
+     });
+</script>
 </html>
