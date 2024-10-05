@@ -1,0 +1,17 @@
+{
+  "name": "animation_2024-10-04_21-01_cdt",
+  "version": "1.0.0",
+  "description": "Is our god depressed?",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "animation"
+  ],
+  "author": "R.J. Freund",
+  "license": "ISC",
+  "dependencies": {
+    "animejs": "^3.2.2"
+  }
+}
